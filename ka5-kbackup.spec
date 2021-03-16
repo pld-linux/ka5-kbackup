@@ -1,15 +1,15 @@
-%define		kdeappsver	19.04.1
+%define		kdeappsver	20.12.3
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		kbackup
 Summary:	Kbackup
 Name:		ka5-%{kaname}
-Version:	19.04.1
+Version:	20.12.3
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
-Source0:	http://download.kde.org/stable/applications/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	f443f27083244bbf4e2c9baaf568eaea
+Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
+# Source0-md5:	fc94d6d2f18223a775f2b0cb58dedc9f
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
@@ -83,3 +83,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/kxmlgui5/kbackup/kbackupui.rc
 %{_datadir}/metainfo/org.kde.kbackup.appdata.xml
 %{_datadir}/mime/packages/kbackup.xml
+%lang(ca) %{_mandir}/ca/man1/kbackup.1*
+%lang(it) %{_mandir}/it/man1/kbackup.1*
+%{_mandir}/man1/kbackup.1*
+%lang(nl) %{_mandir}/nl/man1/kbackup.1*
+%lang(sv) %{_mandir}/sv/man1/kbackup.1*
+%lang(uk) %{_mandir}/uk/man1/kbackup.1*
