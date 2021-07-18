@@ -46,6 +46,20 @@ Features
   drive, USB stick, etc. or any remote URL
 - Running automated backups without using a graphical user interface
 
+%description -l pl.UTF-8
+KBackup jest aplikacją, która pozwala zapisać dowolne foldery lub pliki
+w archiwum .tar do lokalnego katalogu, np. lokalnie zamontowanego
+urządzenia jak dysk ZIP, pendrajw lub zdalny URL.
+
+Właściwości
+
+- Używa plików profili z definicjami folderów i plików, które mają
+  włączone lub wyłączone z backupu
+- Urządzenie docelowe, może być albo lokalnie zamontowanym dyskiem
+  jak dysk ZIP, pendrajwem lub dowolnym zdalnym URLem
+- Wykonuje automatyczne backupy bez używania graficznego interfejsu
+  użytkownika
+
 %prep
 %setup -q -n %{kaname}-%{version}
 
