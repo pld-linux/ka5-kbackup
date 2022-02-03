@@ -1,15 +1,15 @@
-%define		kdeappsver	21.12.1
+%define		kdeappsver	21.12.2
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		kbackup
 Summary:	Kbackup
 Name:		ka5-%{kaname}
-Version:	21.12.1
+Version:	21.12.2
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	https://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	3f2f61d82da23bcfcdbcc921aff8bd46
+# Source0-md5:	be1431fcc7680771b63f87f1dc67f225
 URL:		https://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
